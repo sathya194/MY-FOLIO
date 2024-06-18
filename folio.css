@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(90deg, rgb(227, 243, 170) 0%, rgb(167, 247, 177) 35%, rgb(176, 225, 235) 100%);
+}
+.container-1{
+    width: auto;
+    height: 100px;
+    background-color: rgb(169, 93, 240);
+}
+
+.container-1-h1{
+    padding: 30px;
+}
+
+.nav-container{
+float: right;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+background-color: beige;
+margin-top: -70px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+
+}
+
+li{ list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 800;
+}
+.menu-btn{
+    list-style: none;
+    text-decoration: none;
+
+    padding: 20px;
+    color: rgb(114, 5, 65);
+
+}
+
+
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15PX;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 30PX;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #620aaa;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 20px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f19d9d;
+    border-radius: 20px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+
+.headtitle{font-size: 40px;
+  margin-left: 50px;
+  
+}
+#about{
+  background-image:url(./img/WhatsApp\ Image\ 2024-05-18\ at\ 7.37.09\ PM.jpeg) ;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  text-align: center;
+  
+}
+
+.container-2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center ;
+    height: 300px;
+    width: auto;
+    padding: 30px;
+}
+
+
+.container-2-1{height: 400px;
+width: 500px;
+margin: 125px;
+}
+
+
+.profileimg{width: 250px;
+border-radius: 50PX;
+}
+
+.nametitle{ font-size:25px;
+
+}
+.p1{font-size: 25px;
+
+}
+
+.p2{font-size: 20px;
+margin-left: 50px;
+}
+
+#Skills{
+  background-image: url(./img/skills.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 1700px;
+  background-blend-mode: luminosity;
+}
+
+#Skills:hover{
+  color: #f30852;
+}
+
+.sp2{font-size: 35px;
+  margin-left: 250px;
+  font-weight: 700;
+  margin: 150px;
+  }
+
+  
+.pp2{font-size: 35px;
+  margin-left: 250px;
+  font-weight: 700;
+  margin: 150px;
+  }
+
+.flexcontainer_5{
+    width: auto;
+    height: 100px;
+    margin: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:space-around;
+}
+.flexcontainer{
+    width: auto;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+}
+
+.flex-2{width: 150px;
+    padding: 50px;
+    text-align: center;
+}
+.Contact{
+    width: auto;
+    height: 200px;
+    background: linear-gradient(90deg, rgb(233, 245, 192) 0%, rgb(199, 248, 205) 35%, rgb(176, 225, 235) 100%);;
+}
+.contactdetile{
+    margin-left: 100px;
+}
